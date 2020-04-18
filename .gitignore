@@ -1,0 +1,19 @@
+# osx
+._*
+.DS_Store
+# GoLand
+.idea/
+*.iml
+*.ipr
+*.iws
+*.out
+# VSCode
+.vscode
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+#
+# vendor
