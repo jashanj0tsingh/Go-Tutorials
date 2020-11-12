@@ -1,4 +1,4 @@
-# GoTutorials ![Alt Text](https://travis-ci.org/jashanj0tsingh/GoTutorials.svg?branch=dev)
+Learning Go ![Alt Text](https://travis-ci.org/jashanj0tsingh/learning-go.svg?branch=dev)
 
 ```src/webapp/SimpleWebApp.go```
 > build, run and then goto http://localhost:1514/x
