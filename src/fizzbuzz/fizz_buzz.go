@@ -19,4 +19,5 @@ func main() {
 		fmt.Println(i, ":", str)
 	}
 }
+
 // eof

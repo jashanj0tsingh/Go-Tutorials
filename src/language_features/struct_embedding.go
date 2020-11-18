@@ -11,7 +11,7 @@ type Line struct {
 	pointB Point
 }
 
-func main()  {
+func main() {
 
 	var line Line
 	line.pointA.x = 0

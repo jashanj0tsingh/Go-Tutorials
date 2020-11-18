@@ -12,9 +12,9 @@ type value interface{}
 
 // stack
 type Stack struct {
-	top int
+	top    int
 	values []value
-	size int
+	size   int
 }
 
 // construct a stack
@@ -75,15 +75,15 @@ func (s *Stack) pop() error {
 
 //
 func (s *Stack) peek() int {
-	return s.top-1
+	return s.top - 1
 }
 
 //
-func (s *Stack) print()  {
+func (s *Stack) print() {
 	if s.isEmpty() {
 		fmt.Println("empty stack, nothing to print")
 	} else {
-		for i :=  range s.values {
+		for i := range s.values {
 			fmt.Println(s.values[i])
 		}
 	}
